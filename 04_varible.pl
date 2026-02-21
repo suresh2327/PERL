@@ -33,8 +33,6 @@ print "SIZE OF VECTOR : ".scalar@names; # size of vector variable
 print "\n---------------------------------------\n";
 print "HASH VARIABLE EXAMPLE\n";
 
-#
-
 
 
 
