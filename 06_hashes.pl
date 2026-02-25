@@ -14,3 +14,9 @@ print "Student Information:\n";
 foreach my $i (keys %student_info){
     print "$i: $student_info{$i}\n";
 }
+
+#second method of for each loop to access the values of the hash variable
+print "\nStudent Information:\n";
+foreach my $value (values %student_info) {
+    print "$value\n";
+}
