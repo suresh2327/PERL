@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-
+# array variable : array variable can hold multiple values at a time. It is also known as vector variable. It is used to store a list of values.
 my @student_names = ("suresh",417,"nikhil",459,"nageshwaro",430);
 
 print"@student_names\n"; #print all the elements of the array variable
