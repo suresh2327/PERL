@@ -1,0 +1,28 @@
+[2026-03-04 05:12:01 UTC] vlib work
+ALIB: Library "work" attached.
+work = ./work/work.lib
+[2026-03-04 05:12:02 UTC] vlog -sv design.sv interface.sv transaction.sv testbench.sv
+MESSAGE_SP VCP2124 "Package uvm_pkg found in library uvm_1_2."
+INFO VCP1000 "Compilation started for module alu." "design.sv" 5
+INFO VCP1001 "Analyzing module alu." "design.sv" 6
+WARNING VCP3003 "Signal 'carry_out' is declared but never used." "design.sv" 45
+WARNING VCP2974 "Port 'enable' is not connected." "design.sv" 72
+ERROR VCP7803 "Duplicated declaration of unit alu." "design.sv" 5
+MESSAGE_SP VCP7802 "... see previous 'alu' declaration." "design.sv" 5
+INFO VCP1002 "Analyzing interface alu_inf." "interface.sv" 3
+ERROR VCP7803 "Duplicated declaration of unit alu_inf." "interface.sv" 3
+MESSAGE_SP VCP7802 "... see previous 'alu_inf' declaration." "interface.sv" 3
+WARNING VCP5417 "Implicit wire declared for signal 'temp'." "interface.sv" 21
+INFO VCP1003 "Compiling transaction class." "transaction.sv" 6
+ERROR VCP7801 "Duplicated declaration of unit transaction." "transaction.sv" 6
+MESSAGE_SP VCP7802 "... see previous 'transaction' declaration." "transaction.sv" 6
+ERROR VCP5239 "Keyword 'this' can be used only inside non-static class methods." "transaction.sv" 17
+ERROR VCP5239 "Keyword 'this' can be used only inside non-static class methods." "transaction.sv" 20
+WARNING VCP6120 "Variable 'addr' assigned but not read." "transaction.sv" 33
+INFO VCP1004 "Analyzing testbench module." "testbench.sv" 10
+WARNING VCP7862 "Timescale directive missing, using default 1ns/1ps." "testbench.sv" 1
+WARNING VCP2947 "Possible latch inferred for signal 'result'." "testbench.sv" 56
+ERROR VCP2001 "Undefined signal 'alu_out'." "testbench.sv" 88
+INFO VSIM1000 "Simulation initialization started."
+WARNING VSIM2003 "Signal 'clk' has multiple drivers." "testbench.sv" 101
+ERROR VSIM3001 "Simulation stopped due to fatal error."
