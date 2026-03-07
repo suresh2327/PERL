@@ -40,7 +40,7 @@ else{
 
 #summary report
 print"------> Summary Report <------\n";
-
+#printing total number of errors, warnings, and info messages
 print "Total Errors: $error\n";
 print "Total Warnings: $warning\n";
 print "Total Info: $info\n";
