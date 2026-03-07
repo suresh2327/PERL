@@ -50,4 +50,5 @@ if($error > 0 || $warning > 0 || $info > 0){
 else{
     print "Status: PASSED\n";
 }
+#close file handle
 close($fh);
