@@ -1,0 +1,22 @@
+E
+ER
+EROR
+ERROR
+ERRRRRRRRRRRRR
+E ROR
+E.ROR
+E1ROR
+E$ROR
+E RR
+E RRR
+E1RRR
+71R2R
+ER2R3
+cells = 156;
+cells = 156;
+area = 56;
+power= 98;
+slack=500.235;
+slack=-205.25;
+
+
