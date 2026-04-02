@@ -6,8 +6,6 @@ use warnings;
 
 our $VERSION = "1.0";
 
-# constructor - usage: my $o = BW::Better->new( number );
-# if you omit the number, a zero will be provided. 
 sub new {
     my $inv = shift;
     my $class = ref($inv) || $inv;
