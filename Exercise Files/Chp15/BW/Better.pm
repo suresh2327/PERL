@@ -1,5 +1,4 @@
-# BW::Better.pm
-# Example perl module - by Bill Weinman <http://bw.org/contact/>
+
 
 package BW::Better;
 use 5.18.0;
