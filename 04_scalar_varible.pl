@@ -2,8 +2,6 @@
 use strict;  #compiler directive to enforce good coding practices
 use warnings; #compiler directive to enable warnings for potential issues in the code
 
-
-
 # scalar variable : scalar variable can hold only one value at a time. It can be a string, number or reference.
 print "SCALAR VARIABLE EXAMPLE\n";
 my $name = "suresh"; # scalar variable to hold a string value
