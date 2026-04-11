@@ -8,7 +8,6 @@ while(my $line=<$fh>){
     }
 }
 close($fh);
-
 # The above code reads a file named 'erros.txt' and searches for lines that contain the pattern 'slack = <number>'. It captures the number (which can be positive or negative) and prints it out as "Slack: <number>".
 # The regular expression used is:
 # slack\s*=\s*(-?(\d+.\d+))
